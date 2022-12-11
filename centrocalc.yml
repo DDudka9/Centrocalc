@@ -1,0 +1,14 @@
+name: centrocalc
+channels:
+    - defaults
+    - anaconda
+dependencies:
+    - numpy
+    - scipy
+    - scikit-image
+    - pip
+    - pip:
+        - roifile
+    - python=3.9.*
+prefix: /home/bakins/anaconda3/envs/centrocalc
+
